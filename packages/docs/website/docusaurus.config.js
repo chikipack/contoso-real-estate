@@ -9,12 +9,14 @@ const config = {
   // ------- Required Fields -------
   title: 'Contoso Real Estate: Developer Guide',
   url: 'https://azure-samples.github.io',
-  baseUrl: '/',  // set this to '/contoso-real-estate/' for GitHub pages deployment
+  baseUrl: '/contoso-real-estate/',  // set this to '/contoso-real-estate/' for GitHub pages deployment
 
   // ------- Optional: deploy related -------
   organizationName: 'Azure-Samples',  // needed only for GitHub Pages deployment
   projectName: 'contoso-real-estate', // -- ditto --
   deploymentBranch: "gh-pages",
+
+  trailingSlash: false,
 
   //------- Optional: build checks -----
   onBrokenLinks: 'throw',
